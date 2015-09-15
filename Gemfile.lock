@@ -1,0 +1,47 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.4)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    dotenv (2.0.2)
+    ffi (1.9.10)
+    i18n (0.7.0)
+    ikku (0.1.4)
+      natto
+    json (1.8.3)
+    mem (0.1.5)
+    minitest (5.8.0)
+    natto (1.0.1)
+      ffi (>= 1.9.0)
+    ruboty (1.2.2)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-kokodeikku (0.0.8)
+      ikku (>= 0.1.1)
+      ruboty
+    ruboty-slack (0.1.12)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.1.8)
+    slop (4.2.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruboty-kokodeikku
+  ruboty-slack
+
+BUNDLED WITH
+   1.10.6
