@@ -19,6 +19,7 @@ GEM
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
     ffi (1.9.10)
+    hashie (3.4.2)
     i18n (0.7.0)
     ikku (0.1.4)
       natto
@@ -26,6 +27,7 @@ GEM
     mem (0.1.5)
     minitest (5.8.0)
     multi_json (1.11.2)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     natto (1.0.1)
       ffi (>= 1.9.0)
@@ -35,10 +37,14 @@ GEM
       dotenv
       mem
       slop
+    ruboty-alias (0.0.8)
+      ruboty (>= 1.1.1)
     ruboty-cron (1.0.2)
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -46,10 +52,18 @@ GEM
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
+    ruboty-lgtm (0.0.3)
+      faraday
+      faraday_middleware
+      ruboty
     ruboty-slack_rtm (1.4.0)
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
+    ruboty-syoboi_calendar (0.0.7)
+      activesupport
+      ruboty
+      syoboi_calendar (= 0.3.1)
     slack-api (1.0.0)
       faraday (>= 0.7, <= 0.9)
       faraday_middleware (~> 0.8)
@@ -58,6 +72,12 @@ GEM
     slack-rtmapi (1.0.0.rc4)
       websocket-driver
     slop (4.2.0)
+    syoboi_calendar (0.3.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -69,10 +89,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ruboty-alias
   ruboty-cron
+  ruboty-echo
   ruboty-google_image
   ruboty-kokodeikku
+  ruboty-lgtm
   ruboty-slack_rtm
+  ruboty-syoboi_calendar
 
 BUNDLED WITH
    1.10.6
