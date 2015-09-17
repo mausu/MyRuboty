@@ -10,4 +10,4 @@ gem "ruboty-alias"
 gem "ruboty-lgtm"
 gem "ruboty-syoboi_calendar"
 gem "ruboty-weather"
-
+gem "ruboty-ruby"
