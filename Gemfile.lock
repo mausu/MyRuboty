@@ -64,6 +64,10 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
+    ruboty-weather (0.0.5)
+      faraday
+      faraday_middleware
+      ruboty (>= 0.2.0)
     slack-api (1.0.0)
       faraday (>= 0.7, <= 0.9)
       faraday_middleware (~> 0.8)
@@ -97,6 +101,7 @@ DEPENDENCIES
   ruboty-lgtm
   ruboty-slack_rtm
   ruboty-syoboi_calendar
+  ruboty-weather
 
 BUNDLED WITH
    1.10.6
