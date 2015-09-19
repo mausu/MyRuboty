@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mausu/ruboty-amagumo.git
-  revision: 722516c5678d25cd07f108243b84e4a4ce53f8fb
+  revision: d2974bbbcd864a273945d4e014e5f07e3110b2b4
   specs:
     ruboty-amagumo (1.0.0)
       ruboty
