@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/mausu/ruboty-amagumo.git
+  revision: 70a7198361197583c2aec57a8118cc9a3349f49b
+  specs:
+    ruboty-amagumo (0.1.2)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -96,6 +103,7 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty-alias
+  ruboty-amagumo!
   ruboty-cron
   ruboty-echo
   ruboty-google_image
