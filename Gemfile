@@ -1,14 +1,17 @@
 source "https://rubygems.org"
-ruby "2.2.3"
+
+gem "rake"
 
 gem "ruboty-slack_rtm"
 gem "ruboty-kokodeikku"
-gem "ruboty-google_image"
 gem "ruboty-cron"
 gem "ruboty-echo"
 gem "ruboty-alias"
-gem "ruboty-lgtm"
 gem "ruboty-syoboi_calendar"
 gem "ruboty-weather"
-gem "ruboty-ruby"
-gem "ruboty-amagumo", :git => "https://github.com/mausu/ruboty-amagumo.git"
+gem "ruboty-redis"
+gem 'ruboty-response'
+gem 'ruboty-aa'
+gem 'ruboty-misawa', github: 'mzp/ruboty-misawa'
+gem 'ruboty-ruby'
+gem 'ruboty-sd'
